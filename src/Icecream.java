@@ -17,7 +17,14 @@ public class Icecream{
     }
 
     public static void main(String[]args){
+        Icecream vanila = new Icecream();
+        vanila.name="vanila shake";
+        vanila.flavor="vanila flavor";
+        vanila.toppings="cashew, chocolate syrup";
+        vanila.price=100;
 
+        vanila.invoice();
+        vanila.iceName();
     }
 
 
